@@ -1,0 +1,16 @@
+Cria uma Interface Funcional chamada CalculadorRenegociacaoDivida.
+Essa interface deve ter um unico metodo abstrato chamado calculaRenegociacaoDivida,
+que recebe como parametro
+o valorDividaPendente a novaQuantidadeParcelasPendentes,  e devolve um BigDecimal.
+
+Crie uma Classe chamada RenegociacaoEmprestimoAtrasado.
+
+Nessa classe escreva um metodo chamado calculaRenegociacao que recebe como parametro
+o valorDividaPendente a novaQuantidadeParcelasPendentes
+e qualquer objeto que seja um CalculadorRenegociacaoDivida
+(esse objeto que é um CalculadorRenegociacaoDivida deve ficar responsavel por
+fazer o calculo da renegociacao).
+
+O metodo calculaRenegociacao deve retornar o valor renegociado.
+
+Criar uma classe de testes, usando classe anonima, lambda.
