@@ -1,5 +1,6 @@
 package br.com.letscode.bb.lambdas.interfacesmaisusadas;
 
+import java.text.Collator;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -15,7 +16,7 @@ public class TesteComparator {
         System.out.println(nomes);
 
         System.out.println("-------------");
-
+        
         Comparator<String> comparator = (nome1, nome2) -> nome1.compareTo(nome2);
         nomes.sort(comparator);
 

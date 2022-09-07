@@ -39,6 +39,8 @@ public class UsoStreams {
         Stream<String> streamCampeonato = campeonato.stream();
         long count = streamCampeonato.count();
 
+        System.out.println(streamCampeonato.count());
+
         System.out.println("Nesse campeonato temos " + count + " Times");
 
         String primeiroTime = campeonato.stream().findFirst().get();

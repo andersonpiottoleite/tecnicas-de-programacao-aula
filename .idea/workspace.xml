@@ -4,44 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="771da9b8-5397-4cfe-8bed-2f40bd927f3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TecnicasDeProgramacaoTurmaBB.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/datas/ExercicioData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/datas/TesteDatas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/currying/Carta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/currying/TesteCartaCurrying.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/exercicio/CalculadorRenegociacaoDivida.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/exercicio/RenegociacaoEmprestimoAtrasado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/exercicio/TesteRenegociacaoEmprestimoAtrasado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/exercicio/exercicio.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/grafica/Grafica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/grafica/Impressora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/grafica/TesteImpressao3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/interfacesmaisusadas/MinhaClasse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/interfacesmaisusadas/MinhaInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/interfacesmaisusadas/MinhaInterfacePai.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/interfacesmaisusadas/TesteComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/interfacesmaisusadas/TesteConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/interfacesmaisusadas/TesteFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/interfacesmaisusadas/TestePredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/interfacesmaisusadas/TesteRelacaoLambdaECollections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/interfacesmaisusadas/TesteSupplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/minhasthreads/TesteThreads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/playcenter/MonitorEletronico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/playcenter/TesteValidadorEntradaPulaPula.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/playcenter/ValidadorEntradaBrinquedo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/sorteio/GeradorNumeroAleatorio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/sorteio/Sorteio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/sorteio/TesteSorteioMegaSena.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/optional/ContaCorrenteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/optional/UsoOptional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/streams/UsoStreams.java" afterDir="false" />
+    <list default="true" id="771da9b8-5397-4cfe-8bed-2f40bd927f3f" name="Changes" comment="codigo aulas">
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/arquivos/TesteIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/arquivos/TesteNIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/programacaoparalela/MetodoMaisUsadosEmThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/programacaoparalela/SingleThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/streams/TesteDebugStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/streams/TesteReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/streams/TesteStreamsNumeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/streams/TesteStreamsParalelos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/interfacesmaisusadas/MinhaClasse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/interfacesmaisusadas/MinhaClasse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/interfacesmaisusadas/MinhaInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/interfacesmaisusadas/MinhaInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/interfacesmaisusadas/TesteComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/lambdas/interfacesmaisusadas/TesteComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/letscode/bb/streams/UsoStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/streams/UsoStreams.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,13 +64,13 @@
       <recent name="br.com.letscode.bb.optional" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UsoStreams">
-    <configuration name="TesteComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.lambdas.interfacesmaisusadas.TesteComparator" />
+  <component name="RunManager" selected="Application.TesteIO">
+    <configuration name="MetodoMaisUsadosEmThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.programacaoparalela.MetodoMaisUsadosEmThread" />
       <module name="TecnicasDeProgramacaoTurmaBB" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.letscode.bb.lambdas.interfacesmaisusadas.*" />
+          <option name="PATTERN" value="br.com.letscode.bb.programacaoparalela.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteRelacaoLambdaECollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.lambdas.interfacesmaisusadas.TesteRelacaoLambdaECollections" />
+    <configuration name="SingleThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.programacaoparalela.SingleThread" />
       <module name="TecnicasDeProgramacaoTurmaBB" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.letscode.bb.lambdas.interfacesmaisusadas.*" />
+          <option name="PATTERN" value="br.com.letscode.bb.programacaoparalela.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,34 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteSupplier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.lambdas.interfacesmaisusadas.TesteSupplier" />
-      <module name="TecnicasDeProgramacaoTurmaBB" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.letscode.bb.lambdas.interfacesmaisusadas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UsoOptional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.optional.UsoOptional" />
-      <module name="TecnicasDeProgramacaoTurmaBB" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.letscode.bb.optional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UsoStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.streams.UsoStreams" />
+    <configuration name="TesteDebugStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.streams.TesteDebugStreams" />
       <module name="TecnicasDeProgramacaoTurmaBB" />
       <extension name="coverage">
         <pattern>
@@ -154,13 +104,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TesteIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.arquivos.TesteIO" />
+      <module name="TecnicasDeProgramacaoTurmaBB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.letscode.bb.arquivos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteNIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.arquivos.TesteNIO" />
+      <module name="TecnicasDeProgramacaoTurmaBB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.letscode.bb.arquivos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UsoStreams" />
-        <item itemvalue="Application.UsoOptional" />
-        <item itemvalue="Application.TesteRelacaoLambdaECollections" />
-        <item itemvalue="Application.TesteComparator" />
-        <item itemvalue="Application.TesteSupplier" />
+        <item itemvalue="Application.TesteIO" />
+        <item itemvalue="Application.TesteNIO" />
+        <item itemvalue="Application.MetodoMaisUsadosEmThread" />
+        <item itemvalue="Application.SingleThread" />
+        <item itemvalue="Application.TesteDebugStreams" />
       </list>
     </recent_temporary>
   </component>
@@ -174,8 +150,22 @@
       <updated>1661191896659</updated>
       <workItem from="1661191898321" duration="42245000" />
       <workItem from="1661532127362" duration="9328000" />
-      <workItem from="1661795587897" duration="11177000" />
+      <workItem from="1661795587897" duration="15313000" />
+      <workItem from="1661969054509" duration="9831000" />
+      <workItem from="1662088703067" duration="1190000" />
+      <workItem from="1662141726998" duration="10892000" />
+      <workItem from="1662401078811" duration="11817000" />
+      <workItem from="1662484282289" duration="473000" />
+      <workItem from="1662563977511" duration="88000" />
     </task>
+    <task id="LOCAL-00001" summary="codigo aulas">
+      <created>1661873435289</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661873435289</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +182,20 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="codigo aulas" />
+    <option name="LAST_COMMIT_MESSAGE" value="codigo aulas" />
+  </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/letscode/bb/streams/TesteDebugStreams.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="java.time.format.DateTimeFormatterBuilder" memberName="active" />
