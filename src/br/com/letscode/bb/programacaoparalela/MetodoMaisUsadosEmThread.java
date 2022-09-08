@@ -35,8 +35,6 @@ public class MetodoMaisUsadosEmThread {
         thread1.setDaemon(false);
         thread1.start();
         System.out.println("Fim do programa");
-
-
     }
 
     private static void pausa(){

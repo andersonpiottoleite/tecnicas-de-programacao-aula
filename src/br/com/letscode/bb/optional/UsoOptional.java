@@ -8,21 +8,22 @@ public class UsoOptional {
         ContaCorrente contaCorrente = new ContaCorrente();
         contaCorrente.setAgencia("2054");
         contaCorrente.setNumero("78945613");
-        Cliente cliente1 = new Cliente("Paulo", contaCorrente);
 
+        Cliente cliente1 = new Cliente("Paulo", contaCorrente);
         Cliente cliente2 = new Cliente("Vitoria", null);
 
         ContaCorrente ccCliente1 = getContaCorrentePorCliente(cliente1);
         System.out.println(ccCliente1.getNumero());
 
         ContaCorrente ccCliente2 = getContaCorrentePorCliente(cliente2);
-        //System.out.println(ccCliente2.getNumero());
+        //System.out.println(ccCliente2.getNumero()); // NullPointerException
 
         Optional<ContaCorrente> optionalCliente1 = getOptionalContaCorrentePorCliente(cliente1);
         System.out.println(optionalCliente1);
         /*if (optionalCliente1.isPresent()){
             System.out.println(optionalCliente1.get());
         }*/
+        //pode ser substituido por:
         optionalCliente1.ifPresent(System.out::println);
 
         optionalCliente1.ifPresentOrElse(System.out::println, () -> System.out.println("Esse cliente não possui Conta Corrente"));
@@ -44,6 +45,7 @@ public class UsoOptional {
         /*if (optionalCliente2.isPresent()){
             System.out.println(optionalCliente2.get());
         }*/
+        //pode ser substituido por:
         optionalCliente2.ifPresent(System.out::println);
 
         optionalCliente2.ifPresentOrElse(System.out::println, () -> System.out.println("Esse cliente não possui Conta Corrente"));
@@ -55,8 +57,9 @@ public class UsoOptional {
         System.out.println("Usando orElseGet CC : " + novaCC2);
 
        /* novaCC2 = optionalCliente2.orElseThrow();
-        System.out.println("Usando orElseThrow CC : " + novaCC2);*/
+        System.out.println("Usando orElseThrow CC : " + novaCC2);*/ // lança exception padrão: NoSuchElementException
 
+        // para exception peronalizada:
         novaCC2 = optionalCliente2.orElseThrow(() -> new ContaCorrenteException("Conta Corrente não encontrada!"));
         System.out.println("Usando orElseThrow CC : " + novaCC2);
     }
