@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="771da9b8-5397-4cfe-8bed-2f40bd927f3f" name="Changes" comment="codigo aulas">
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/programacaoparalela/Concorrencia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/programacaoparalela/MultiThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/programacaoparalela/ParalelismoEConcorrenciaEmColecoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/programacaoparalela/Prioridades.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/programacaoparalela/RotinaDaMadrugada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/programacaoparalela/SolucaoConcorrenciaAdequada.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/letscode/bb/arquivos/TesteIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/arquivos/TesteIO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/letscode/bb/arquivos/TesteNIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/arquivos/TesteNIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/letscode/bb/datas/TesteDatas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/datas/TesteDatas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/letscode/bb/optional/UsoOptional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/optional/UsoOptional.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/letscode/bb/programacaoparalela/MetodoMaisUsadosEmThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/programacaoparalela/MetodoMaisUsadosEmThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/letscode/bb/streams/TesteDebugStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/streams/TesteDebugStreams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/letscode/bb/streams/TesteReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/streams/TesteReduce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/letscode/bb/streams/TesteStreamsNumeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/streams/TesteStreamsNumeros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/letscode/bb/streams/TesteStreamsParalelos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/streams/TesteStreamsParalelos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/letscode/bb/streams/UsoStreams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/letscode/bb/programacaoparalela/SingleThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/letscode/bb/programacaoparalela/SingleThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +61,13 @@
       <recent name="br.com.letscode.bb.optional" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TesteDebugStreams">
-    <configuration name="TesteDatas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.datas.TesteDatas" />
+  <component name="RunManager" selected="Application.Concorrencia">
+    <configuration name="Concorrencia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.programacaoparalela.Concorrencia" />
       <module name="TecnicasDeProgramacaoTurmaBB" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.letscode.bb.datas.*" />
+          <option name="PATTERN" value="br.com.letscode.bb.programacaoparalela.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteDebugStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.streams.TesteDebugStreams" />
+    <configuration name="MetodoMaisUsadosEmThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.programacaoparalela.MetodoMaisUsadosEmThread" />
       <module name="TecnicasDeProgramacaoTurmaBB" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.letscode.bb.streams.*" />
+          <option name="PATTERN" value="br.com.letscode.bb.programacaoparalela.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.arquivos.TesteIO" />
+    <configuration name="ParalelismoEConcorrenciaEmColecoes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.programacaoparalela.ParalelismoEConcorrenciaEmColecoes" />
       <module name="TecnicasDeProgramacaoTurmaBB" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.letscode.bb.arquivos.*" />
+          <option name="PATTERN" value="br.com.letscode.bb.programacaoparalela.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteNIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.arquivos.TesteNIO" />
+    <configuration name="Prioridades" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.programacaoparalela.Prioridades" />
       <module name="TecnicasDeProgramacaoTurmaBB" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.letscode.bb.arquivos.*" />
+          <option name="PATTERN" value="br.com.letscode.bb.programacaoparalela.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsoOptional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.optional.UsoOptional" />
+    <configuration name="RotinaDaMadrugada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.letscode.bb.programacaoparalela.RotinaDaMadrugada" />
       <module name="TecnicasDeProgramacaoTurmaBB" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.letscode.bb.optional.*" />
+          <option name="PATTERN" value="br.com.letscode.bb.programacaoparalela.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TesteDebugStreams" />
-        <item itemvalue="Application.UsoOptional" />
-        <item itemvalue="Application.TesteDatas" />
-        <item itemvalue="Application.TesteIO" />
-        <item itemvalue="Application.TesteNIO" />
+        <item itemvalue="Application.Concorrencia" />
+        <item itemvalue="Application.RotinaDaMadrugada" />
+        <item itemvalue="Application.MetodoMaisUsadosEmThread" />
+        <item itemvalue="Application.Prioridades" />
+        <item itemvalue="Application.ParalelismoEConcorrenciaEmColecoes" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +154,8 @@
       <workItem from="1662401078811" duration="11817000" />
       <workItem from="1662484282289" duration="473000" />
       <workItem from="1662563977511" duration="88000" />
-      <workItem from="1662657567339" duration="4829000" />
+      <workItem from="1662657567339" duration="12972000" />
+      <workItem from="1662745501018" duration="13187000" />
     </task>
     <task id="LOCAL-00001" summary="codigo aulas">
       <created>1661873435289</created>
@@ -171,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662662276226</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="codigo aulas">
+      <created>1662662645677</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662662645677</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

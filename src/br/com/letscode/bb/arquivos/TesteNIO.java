@@ -36,7 +36,7 @@ public class TesteNIO {
     }
 
     private static void subPath(Path path) {
-        Path subpath = path.subpath(0, 3);
+        Path subpath = path.subpath(0, 4);
         System.out.println(subpath);
     }
 

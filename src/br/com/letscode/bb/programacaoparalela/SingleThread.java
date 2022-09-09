@@ -10,9 +10,9 @@ public class SingleThread {
 
 
     public static void main(String[] args) {
-        //System.gc();// sugerisndo rodar o garbage collector
+        //System.gc();// sugerindo rodar o garbage collector
 
-        // não precisamos de uma nova paraque seja Single
+        // não precisamos de uma nova Thread para que seja Single, pois o main já é uma Thread
         //new Thread(() ->  System.out.println("Fazendo uma tarefa")).start();
 
         Thread threadAtual = Thread.currentThread();
