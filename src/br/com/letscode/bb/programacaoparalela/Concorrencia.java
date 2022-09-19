@@ -24,10 +24,10 @@ public class Concorrencia {
 
         @Override
         public void run() {
-            synchronized (this) {
+            //synchronized (this) {
                 count++;
                 System.out.println(Thread.currentThread().getName() + " - count: " + count);
-            }
+            //}
         }
 
         private static void incrementa(){
